@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-meal-staging-174408-authRole",
+      "UnauthRoleArn": "arn:aws:iam::510422890965:role/amplify-meal-staging-174408-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::510422890965:role/amplify-meal-staging-174408-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-meal-staging-174408-deployment",
+      "UnauthRoleName": "amplify-meal-staging-174408-unauthRole",
+      "StackName": "amplify-meal-staging-174408",
+      "StackId": "arn:aws:cloudformation:us-east-1:510422890965:stack/amplify-meal-staging-174408/fc037160-4342-11ed-be03-0eaf53039dbb",
+      "AmplifyAppId": "d1wwf0smdwitsn"
+    },
+    "categories": {
+      "auth": {
+        "Meal": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3mealstorageba2ebc6e",
+  "bucketName": "meal-storage-ba2ebc6e",
+  "policyUUID": "9bd1b699",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "READ"
+  ]
+}

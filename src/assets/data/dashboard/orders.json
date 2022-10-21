@@ -1,0 +1,20 @@
+[
+  {
+    "orderID": "F8762",
+    "price": 34000,
+    "deliveryAddress": "Bugolobi Bandali Rise",
+    "status": "Accepted"
+  },
+  {
+    "orderID": "A9245",
+    "price": 94000,
+    "deliveryAddress": "Naalya Kato Rise",
+    "status": "Pending"
+  },
+  {
+    "orderID": "Y7902",
+    "price": 69000,
+    "deliveryAddress": "Ndeeba yamaha building",
+    "status": "Declined"
+  }
+]
