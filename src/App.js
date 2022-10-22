@@ -4,6 +4,7 @@ import { Amplify } from 'aws-amplify';
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import awsconfig from './aws-exports';
 import '@aws-amplify/ui-react/styles.css';
+import RestaurantContextProvider from './context/RestaurantContext';
 
 
 Amplify.configure(awsconfig);
@@ -11,7 +12,9 @@ Amplify.configure(awsconfig);
 
 function App() {
   return (
-    <AppRoutes />
+    <RestaurantContextProvider>
+      <AppRoutes />
+    </RestaurantContextProvider>
   );
 }
 

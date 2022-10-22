@@ -716,6 +716,13 @@ export const schema = {
                         "associatedWith": "restaurantID"
                     }
                 },
+                "adminSub": {
+                    "name": "adminSub",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
                 "createdAt": {
                     "name": "createdAt",
                     "isArray": false,
@@ -890,10 +897,11 @@ export const schema = {
                 "READY_FOR_PICKUP",
                 "PICKED_UP",
                 "COMPLETED",
-                "ACCEPTED"
+                "ACCEPTED",
+                "DECLINED_BY_RESTAURANT"
             ]
         }
     },
     "nonModels": {},
-    "version": "7e947a005f8708d4ce37f0b0f04fa096"
+    "version": "36045b6bb80673d9d8bdcb58e30e2319"
 };
