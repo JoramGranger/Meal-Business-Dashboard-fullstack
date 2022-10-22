@@ -76,6 +76,9 @@ const OrderHistory = () => {
                 dataSource={orders}
                 columns={tableColumns}
                 rowKey="id"
+                onRow={(orderItem) => ({
+                    onClick: () => navigate(`/order/${orderItem.id}`)
+                })}
             />
         </Card>
     );
