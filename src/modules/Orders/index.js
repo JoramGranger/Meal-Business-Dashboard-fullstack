@@ -29,6 +29,16 @@ const Orders = () => {
         ).then(setOrders);
     }, [restaurant]);
 
+    useEffect(() => {
+        const subscription = DataStore.observe(Order).subscribe(msg => {
+            const {opType, element} = msg
+            if(msg.opType === 'INSERT' && element.orderRestaurantId === restaurant.id) {
+                setOrders((existingOrders) => [element, ...existingOrders]);
+            }
+        });
+        return () => subscription.unsubscribe();
+    }, [])
+
     console.log(orders);
 
     const renderOrderStatus = (orderStatus) => {
